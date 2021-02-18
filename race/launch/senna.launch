@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch lidar -->
+    <node pkg="race" name="Senna_vision" type="centre_wall_control.py"/>
+    <!-- Launch autopilot -->
+    <node name="Autopilot_Senna" pkg="race" type="centre_wall_follow.py"/>
+</launch>
