@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch lidar -->
+    <node pkg="race" name="dist_finder" type="dist_finder.py"/>
+    <!-- Launch autopilot -->
+    <node name="Autopilot" pkg="race" type="control.py"/>
+</launch>
